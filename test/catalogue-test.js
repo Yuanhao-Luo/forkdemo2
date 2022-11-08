@@ -59,6 +59,7 @@ describe("Catalogue", () => {
       cat = new Catalogue("Test catalogue");
       const result = cat.checkReorders();
       expect(result.productIds).to.be.empty;
+      
     });
   });
 
